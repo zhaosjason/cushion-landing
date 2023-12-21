@@ -1,0 +1,63 @@
+<html>
+    <head>
+        <title>Cushion Money</title>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+            }
+
+            body {
+                background-image: url("white-store.jpg");
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-position: center;
+            }
+
+            #tint {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+
+                background-color: #000;
+                opacity: 0.5;
+                z-index: 99;
+            }
+
+            #container {
+                width: 100%;
+                height: 100%;
+
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            h1 {
+                position: absolute;
+                margin-top: 40vh;
+                text-align: center;
+                z-index: 999;
+
+                color: #E4E4E4;
+                font-size: 3.5em;
+                font-weight: 800;
+
+                -webkit-font-smoothing: antialiased;
+                font-family: -apple-system,system-ui,BlinkMacSystemFont,Helvetica Neue,Helvetica,sans-serif;
+                font-feature-settings: "case" 1, "rlig" 1, "calt" 0;
+                font-variation-settings: normal;
+                text-rendering: optimizeLegibility;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="tint"></div>
+        <div id="container">
+            <h1>Coming soon</h1>
+        </div>
+    </body>
+</html>
